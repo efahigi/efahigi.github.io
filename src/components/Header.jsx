@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
-
-function Nav() {
+import { useState } from 'react';
+// import {efaLogo} 
+function Header() {
   return (
-    <div className="nav">
+    <div className="nav" >
+       <div className="efalogo">
+       <img src= "efaLogo" alt='Efa logo' className='efalogo' />
+                <div className='logoPicture'>Efa Higi </div>
+       </div>
       <Link to="/">
-        <div></div>
-      </Link>
-      <Link to="/home">
-        <div>Home</div>
+        <div><i className='fa fa-home fa-lg'/>Home</div>
       </Link>
       <Link to="/about">
         <div>About Me</div>
@@ -25,4 +27,4 @@ function Nav() {
   )
 }
 
-export default Nav
+export default Header
