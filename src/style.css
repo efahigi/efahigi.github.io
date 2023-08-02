@@ -1,11 +1,19 @@
-body {
+.App {
+  font-family: sans-serif;
+ min-height: 100vh;
+
+}body {
   background-color: rgb(167, 167, 201);
   color: white;
   padding: 15px;
 
 }
 .nav {
+  position: fixed;
   display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
   justify-content: space-between;
   background-color: rgb(196, 141, 248);
   color: black;
@@ -13,18 +21,97 @@ body {
   font-size: 1em;
   border-radius: 5px;
 }
+
 .nav a {
   color: black;
   text-decoration: none;
 }
 
+
 .myProjectFooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   background-color: rgb(58, 42, 73);
-  color: black;
+  color: white;
   padding: 15px;
   font-size: 1em;
   border-radius: 5px;
+  /* height: 162px; */
+}
+.logoPicture{
+  /* border: solid black; */
+  width: 34px;
+  height: 34px;
   
+}
+.efalogo{
+  border: solid black;
+  width:34px;
+  height: 34px;
+  margin-top: 0;
+}
+.footLinkContainer{
+  border: solid green;
+  width: 33%;
+}
+.footSocialContainer{
+  display: block;
+  border: solid black;
+  width: 33%;
+  padding: 25px 50px;
+}
+.footContactContainer{
+  border: solid yellow;
+  width: 33%;
+}
+.footContainer{
+ 
+  /* border: solid red; */
+  display: flex;
+  width: 100%;
+}
+.instagram{
+  border: solid black;
+  height: 23px;
+  width: 20%;
+}
+.facebook{
+  border: solid yellow;
+  height: 23px;
+  width: 23px;
+  width: 20%;
+}
+.twitter{
+  border: solid green;
+  height: 23px;
+  width: 23px;
+}
+.youtube{
+  border: solid white;
+  height: 23px;
+  width: 23px;
+}
+.linkedin{
+  border: solid red;
+  height: 23px;
+  width: 23px;
+}
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
 }

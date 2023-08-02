@@ -1,15 +1,19 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react';
-// import {efaLogo} 
+
+
+
 function Header() {
+ 
   return (
     <div className="nav" >
-       <div className="efalogo">
-       <img src= "efaLogo" alt='Efa logo' className='efalogo' />
-                <div className='logoPicture'>Efa Higi </div>
-       </div>
       <Link to="/">
-        <div><i className='fa fa-home fa-lg'/>Home</div>
+       <div className="efalogo">
+       <img src = './Logo.png'  className='logoPicture' alt ='Logo'/>
+        </div>
+      </Link>
+      <Link to="/">
+        <div>Home</div>
       </Link>
       <Link to="/about">
         <div>About Me</div>

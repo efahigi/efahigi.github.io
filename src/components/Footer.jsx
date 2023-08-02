@@ -1,11 +1,18 @@
 import { Link } from 'react-router-dom';
 import { a } from 'react-router-dom';
+import { FontAwesomeIcon } from "@fortawesome/fontawesome-free";
+import {
+    faYoutube,
+    faFacebook,
+    faTwitter,
+    faInstagram
+  } from "@fortawesome/free-brands-svg-icons"
 const Footer = () => {
+    
     return (
-        <footer className='myProjectFooter' sticky='bottom' >
-            <div className='container'>
-                <div className='rowContainer'>
-                    <div className='footCol1' xs={{ size: 4, offset: 1 }} sm='2'>
+        <footer className='myProjectFooter' >
+                <div className='footContainer'>
+                    <div className='footLinkContainer'>
                         <h5>Links</h5>
                         <ul className='list-unstyled'>
                             <li>
@@ -25,33 +32,30 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className = 'footCol2'  xs='6' sm='3'>
-                        <h5>Social</h5>
-                        <a className='btn btn-social-icon btn-instagram'
-                            href='http://instagram.com/'
-                        > 
+                    <div className = 'footSocialContainer'  >
+                        <h5>Social Media</h5>
+                                         
+                         <a href=' http://instagram.com/'className='instagram'>
                         <i className='fa fa-instagram' />
                         </a>{' '}
-                        <a
-                            className='btn btn-social-icon btn-facebook'
-                            href='http://www.facebook.com/'
-                        >
+                          
+                       
+                        <a href='http://www.facebook.com/'className='facebook'>
                         <i className='fa fa-facebook' />
                         </a>{' '}
-                        <a
-                        className='btn btn-social-icon btn-twitter'
-                            href='http://twitter.com/'
-                        >
+
+                        <a href='http://twitter.com/'className='twitter'>                      
                         <i className='fa fa-twitter' />
                         </a>{' '}
-                        <a
-                            className='btn btn-social-icon btn-google'
-                            href='http://youtube.com/'
-                        >
-                            <i className='fa fa-youtube' />
-                        </a>
-                    </div>
-                    <div className = 'footCol3' sm='4'>
+                        <a href='http://youtube.com/' className='youtube'>
+                            <i className='faYoutube' />
+                            
+                        </a>{' '}
+                        <a href='http://www.linkedin.com/'className='linkedin'>
+                        <i className='fa fa-youtube' />
+                        </a> {' '} 
+                    </div> 
+                    <div className = 'footContactContainer' sm='4'>
                         <a
                             role='button'
                             className='btn btn-link'
@@ -68,7 +72,7 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
-            </div>
+         
         </footer>
     );
 };
