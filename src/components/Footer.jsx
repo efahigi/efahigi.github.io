@@ -55,7 +55,7 @@ const Footer = () => {
                         <i className='fa fa-youtube' />
                         </a> {' '} 
                     </div> 
-                    <div className = 'footContactContainer' sm='4'>
+                    <div className = 'footContactContainer' >
                         <a
                             role='button'
                             className='btn btn-link'

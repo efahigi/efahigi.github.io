@@ -1,6 +1,19 @@
+body {
+    border: solid black;
+    
+   
+    background-color: gray;
+}
 .homePage {
     border: solid black;
-  
-   
     margin-top: 65px;
+    display: block;
+    align-items: center;
+    background-color: gray;
+}
+.photo{
+border: solid black;
+height: 89px;
+width: 89px;
+border-radius: 50px;
 }
