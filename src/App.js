@@ -6,7 +6,7 @@ import Resume from './pages/Resume';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
-import { Button } from 'reactstrap';
+import { useState } from "react";
 import './style.css';
 import './header.css';
 import './footer.css';
@@ -16,8 +16,14 @@ import './contacts.css';
 import './resume.css';
 import './project.css';
 
-// import elogo from './images/elogo';
+
 function App() {
+  
+  const [data, setData] = useState();
+
+  const getDat = (data) => {
+    return datas.map(user => user.name.toLowerCase().includes(userName.toLowerCase()))[0]
+  }
   return (
     <div className="App">
       <Header/>

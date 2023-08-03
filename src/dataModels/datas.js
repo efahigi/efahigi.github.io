@@ -1,5 +1,5 @@
-const data = {
-    person: 'Efa Higi',
+const datas = {
+    name: 'Efa Higi',
     positin: 'Software Engineer',
     location: 'based on USA',
     hobies: 'playing chass',
@@ -14,4 +14,4 @@ const data = {
     img1:'https://em-content.zobj.net/source/microsoft-teams/363/clapping-hands_1f44f.png',
 
   }
-module.exports = data;
+module.exports = datas;
