@@ -7,6 +7,7 @@ import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import { Button } from 'reactstrap';
+import './style.css';
 // import elogo from './images/elogo';
 function App() {
   return (
