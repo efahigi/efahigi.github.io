@@ -8,6 +8,14 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import { Button } from 'reactstrap';
 import './style.css';
+import './header.css';
+import './footer.css';
+import './home.css';
+import './about.css';
+import './contacts.css';
+import './resume.css';
+import './project.css';
+
 // import elogo from './images/elogo';
 function App() {
   return (
