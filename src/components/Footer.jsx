@@ -65,14 +65,14 @@ const Footer = () => {
                             className='btn btn-link'
                             href='tel:+14694076748'
                         >
-                            <i className='fa fa-phone' /> 1-469-407-6748 </a>
+                            <i className='fa fa-phone' /> My phone </a>
                         <br />
                         <a
                             role='button'
                             className='btn btn-link'
                             href='mailto:efawaken22005@gmail.com'
                         >
-                            <i className='fa fa-envelope-o' /> efawaken22005@gmail.com
+                            <i className='fa fa-envelope-o' /> My email
                         </a>
                     </div>
                 </div>

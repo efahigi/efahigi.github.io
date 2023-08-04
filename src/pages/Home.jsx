@@ -12,12 +12,12 @@ function Home (props) {
 
         <div className='efaInfo'>
             <div className='name'>
-              <div className='name1'>Hi! I'am {myData.name}</div>
+              <div className='name1'>Hi! I'am {myData.name}</div> 
               <img src ={myData.img1}className='efaIfo' alt =''/>
             </div>
             
             <div className='position'>
-              <img src ={myData.img2}className='efaIfo' alt =''/>    
+              <img src ={myData.img2}className='efaIfo' alt =''/> 
               <div className='position1 '>I am a {myData.position}.</div>
             </div>
 
@@ -33,7 +33,7 @@ function Home (props) {
 
             <div className='fueled'>
               <img src ={myData.img5}className='efaIfo' alt =''/>
-              <div className='fueled1 '>  {myData. fueled} is my Fuel!</div>
+              <div className='fueled1'>{myData. fueled} is my Fuel!</div>
             </div>
 
             <div className='email'>

@@ -13,22 +13,23 @@
   
   .footLinkContainer{
     margin-top: 0px;
-    border: solid green;
-    width: 23%;
+    /* border: solid green; */
+    width: 33%;
     margin-bottom: 0px;
   }
   .footSocialContainer{
     display: block;
-    border: solid black;
-    width: 28%;
+    /* border: solid black; */
+    width: 33%;
+    padding: 5px;
     /* padding: 25px 50px; */
   }
   .footContactContainer{
-    border: solid yellow;
-    width: 50%;
+    /* border: solid yellow; */
+    width: 33%;
   }
   .footContainer{
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     width: 100%;
   }
@@ -58,8 +59,9 @@
     height: 23px;
     width: 23px;
   }
-  /* a.youtube {
+  a.youtube {
     color: #eb3223;
+
   }
   
   a.facebook {
@@ -67,10 +69,10 @@
   }
   
   a.twitter {
-    color: #49a1eb;
+    color: #4892cf;
   }
   
-  .fa fa-instagram {
+  /* .fa fa-instagram {
     color: black;
   } */
   .socialInfo{
