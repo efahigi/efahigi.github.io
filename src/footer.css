@@ -5,18 +5,18 @@
     right: 0;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(58, 42, 73);
+    background-color: rgb(196, 141, 248);
     color: white;
-    padding: 15px;
-    font-size: 1em;
-    border-radius: 5px;
-    /* height: 162px; */
+    font-size: 0.7em;
+    height: 120px;
   }
   
   
   .footLinkContainer{
+    margin-top: 0px;
     border: solid green;
     width: 33%;
+    margin-bottom: 0px;
   }
   .footSocialContainer{
     display: block;
@@ -35,18 +35,18 @@
     width: 100%;
   }
   .instagram{
-    border: solid black;
+    /* border: solid black; */
     height: 23px;
     width: 20%;
   }
   .facebook{
-    border: solid yellow;
+    /* border: solid yellow; */
     height: 23px;
     width: 23px;
     width: 20%;
   }
   .twitter{
-    border: solid green;
+    /* border: solid green; */
     height: 23px;
     width: 23px;
   }
@@ -56,7 +56,7 @@
     width: 23px;
   }
   .linkedin{
-    border: solid red;
+    /* border: solid red; */
     height: 23px;
     width: 23px;
   }
@@ -74,4 +74,9 @@
   
   .fa fa-instagram {
     color: black;
+  }
+  .socialInfo{
+    display: flex;
+    justify-content: space-between;
+  
   }

@@ -1,17 +1,72 @@
 
 .homePage {
+    display: flex;
     border: solid black;
-    margin-top: 65px;
-    display: block;
-    align-items: center;
-    background-color: gray;
+    margin-top: 75px;
+    width: 100%;
+    background-color: rgb(157, 157, 192);
 }
-.photo{
-border: solid black;
-height: 89px;
-width: 89px;
-border-radius: 50px;
+
+.efaImage{
+border: solid yellow;
+width: 50%;
+;
+}
+.efaInfo{
+    border: solid red;
+    width: 50%;
+}
+.efaImage1{
+    margin-left: 40%;
+    border: solid blue;
+    border-radius: 99%;
+    width: 200px;
+    height: 200px;
+    /* align-items: center; */
+    margin: 25px;
+}
+.efaImage1:hover{
+    margin-left: 40%;
+    border: solid green;
+    border-radius: 50%;
+    /* width: 200px;
+    height: 200px; */
+    align-items: center;
+    margin: 25px;
 }
 .name{
-    
+    margin-top: 20%;
+    display: flex;
+    border-radius: 99%;
+    margin: 20px; 
+    padding-top: 24px ;
 }
+.position{
+    display: flex;
+     border-radius: 99%;
+    
+ }
+ .location{
+    display: flex;
+     border-radius: 99%;
+ }
+ .hobby{
+    display: flex;
+     border-radius: 99%;
+ }
+ .fueled{
+    display: flex;
+     border-radius: 99%;
+ }
+ .email{
+    display: flex;
+     border-radius: 99%;
+ }
+ .efaIfo{
+    width: 20px;
+    border-radius: 50px;
+ }
+ .efaIfo :hover{
+    width: 30px;
+    border-radius: 50px;
+ }

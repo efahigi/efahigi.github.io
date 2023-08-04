@@ -1,11 +1,10 @@
-const datas = {
+const myData = {
     name: 'Efa Higi',
-    positin: 'Software Engineer',
-    location: 'based on USA',
-    hobies: 'playing chass',
-    fueled:'fueled coffee',
+    position: 'Software Engineer',
+    location: 'Dallas,Tx USA',
+    hobies: 'Playing chass',
+    fueled:'Coffee',
     email:'efawakene2005@gmail.com',
-
     img3:'https://static.vecteezy.com/system/resources/thumbnails/019/046/284/small/world-globe-earth-map-png.png',
     img4:'https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/PedroPinhata/phpZTvydV.png',
     img2:'https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c29mdHdhcmUlMjBkZXZlbG9wbWVudHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80',
@@ -14,4 +13,4 @@ const datas = {
     img1:'https://em-content.zobj.net/source/microsoft-teams/363/clapping-hands_1f44f.png',
 
   }
-module.exports = datas;
+module.exports = myData;

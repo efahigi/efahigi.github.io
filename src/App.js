@@ -18,12 +18,11 @@ import './project.css';
 
 
 function App() {
-  
-  const [data, setData] = useState();
+  const [data, setData] = useState('');
 
-  const getDat = (data) => {
-    return datas.map(user => user.name.toLowerCase().includes(userName.toLowerCase()))[0]
-  }
+  // const getData = (data) => {
+  //   return datas.map(user => user.name.toLowerCase().includes(userName.toLowerCase()))[0]
+  // }
   return (
     <div className="App">
       <Header/>

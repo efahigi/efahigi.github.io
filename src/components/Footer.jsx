@@ -33,8 +33,11 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className = 'footSocialContainer'  >
+                        <div className='title'>
                         <h5>Social Media</h5>
-                                         
+                        </div>
+
+                        <div className='socialInfo'>           
                          <a href=' http://instagram.com/com'className='instagram'>
                         <i className='fa fa-instagram' />
                         </a>{' '}
@@ -54,6 +57,7 @@ const Footer = () => {
                         <a href='http://www.linkedin.com/'className='linkedin'>
                         <i className='fa fa-youtube' />
                         </a> {' '} 
+                        </div>  
                     </div> 
                     <div className = 'footContactContainer' >
                         <a
