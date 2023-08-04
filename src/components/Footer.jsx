@@ -51,11 +51,11 @@ const Footer = () => {
                         <i className='fa fa-twitter' />
                         </a>{' '}
                         <a href='http://youtube.com/' className='youtube'>
-                            <i className='faYoutube' />
+                        <i className='fa fa-youtube' />
                             
                         </a>{' '}
                         <a href='http://www.linkedin.com/'className='linkedin'>
-                        <i className='fa fa-youtube' />
+                        <i className='fa fa-linkedin' />
                         </a> {' '} 
                         </div>  
                     </div> 

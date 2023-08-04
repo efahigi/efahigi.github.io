@@ -6,31 +6,29 @@
     display: flex;
     justify-content: space-between;
     background-color: rgb(196, 141, 248);
-    color: white;
+    color: black;
     font-size: 0.7em;
-    height: 120px;
+    height: 130px;
   }
-  
   
   .footLinkContainer{
     margin-top: 0px;
     border: solid green;
-    width: 33%;
+    width: 23%;
     margin-bottom: 0px;
   }
   .footSocialContainer{
     display: block;
     border: solid black;
-    width: 33%;
-    padding: 25px 50px;
+    width: 28%;
+    /* padding: 25px 50px; */
   }
   .footContactContainer{
     border: solid yellow;
-    width: 33%;
+    width: 50%;
   }
   .footContainer{
-   
-    /* border: solid red; */
+    border: solid red;
     display: flex;
     width: 100%;
   }
@@ -51,8 +49,8 @@
     width: 23px;
   }
   .youtube{
-    border: solid white;
-    height: 23px;
+     /* border: solid red; */
+    height: 23px; 
     width: 23px;
   }
   .linkedin{
@@ -60,7 +58,7 @@
     height: 23px;
     width: 23px;
   }
-  a.youtube {
+  /* a.youtube {
     color: #eb3223;
   }
   
@@ -74,9 +72,14 @@
   
   .fa fa-instagram {
     color: black;
-  }
+  } */
   .socialInfo{
     display: flex;
+    justify-content: space-between;
+  
+  }
+  .title{
+   text-align: center;
     justify-content: space-between;
   
   }
