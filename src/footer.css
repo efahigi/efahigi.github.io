@@ -16,6 +16,7 @@
     /* border: solid green; */
     width: 33%;
     margin-bottom: 0px;
+    padding: 10px;
   }
   .footSocialContainer{
     display: block;
@@ -27,6 +28,7 @@
   .footContactContainer{
     /* border: solid yellow; */
     width: 33%;
+    padding: 10px;
   }
   .footContainer{
     /* border: solid red; */
