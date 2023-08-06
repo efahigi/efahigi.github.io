@@ -1,15 +1,14 @@
-import {useState} from 'react'
-import axios from 'axios'
+import { createContext, useState, useEffect } from "react"
+// import JobDetail from './pages/JobDetail';
+import Main from "./Main";
+// import './project.css';
 
 function Project() {
+
+
   const [data,setData]=useState(null)
 
-  const getData = async(area)=>{
-      let res = await axios.get(`https://api.weatherapi.com/v1/forecast.json?key=3ba0d5cb39744d22b5c51914232601&q=${area}&days=3&aqi=yes&alerts=yes`)
-
-      console.log(res)
-      setData(res.data)
-  }
+ 
   return (
     <div className='projectPage'>
     
