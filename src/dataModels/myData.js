@@ -1,5 +1,5 @@
 const myData = {
-    name: 'Efa Higi',
+    name: 'Aber Girma',
     position: 'Software Engineer',
     location: 'Dallas,Tx USA',
     hobies: 'Playing chass',

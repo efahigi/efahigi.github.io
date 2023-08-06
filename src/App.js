@@ -6,7 +6,7 @@ import Resume from './pages/Resume';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import './style.css';
 import './header.css';
 import './footer.css';
@@ -19,10 +19,11 @@ import './project.css';
 
 function App() {
   const [data, setData] = useState('');
-
-  // const getData = (data) => {
-  //   return datas.map(user => user.name.toLowerCase().includes(userName.toLowerCase()))[0]
-  // }
+  
+  // useEffect(()=>{
+  //   getData("dallas");
+  // },[])
+  
   return (
     <div className="App">
       <Header/>

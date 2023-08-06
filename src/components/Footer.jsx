@@ -63,14 +63,14 @@ const Footer = () => {
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='tel:+14694076748'
+                            href='tel:+14694784598'
                         >
                             <i className='fa fa-phone' /> My phone </a>
                         <br />
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='mailto:efawaken22005@gmail.com'
+                            href='mailto:efa22005@gmail.com'
                         >
                             <i className='fa fa-envelope-o' /> My email
                         </a>
