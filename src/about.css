@@ -1,6 +1,40 @@
 .aboutPage{
+    background-color:rgb(157, 157, 192);
+    /* border: solid black; */
+    margin-top: 75px;
+    height: 100vh;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutMe{
+    /* border: solid yellow; */
+    margin: 0%;
+}
+.myName{
+    /* border: solid red; */
+    text-align: center;
+    color: black;
+}
+.myName:hover{
+    /* border: solid red; */
+    color: blue;
+    text-align: center;
+}
+/* .myInformation{
     border: solid black;
-  
-   
-    margin-top: 65px;
+} */
+.aboutConnection{
+    /* border: solid blue; */
+    display: flex;
+}
+.project{
+    /* border: solid black; */
+    width: 50%;
+   text-align: center;
+    
+}
+.contact{
+    /* border: solid black; */
+    width: 50%;
+    text-align: center;
 }
