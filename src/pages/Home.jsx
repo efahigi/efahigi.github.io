@@ -5,6 +5,7 @@ function Home (props) {
 
   return (
     <div className='homePage'>
+      <div className='home'>
       
         <div className='efaImage'>
           <img src = "images/efaImage.png" className='efaImage1' alt =''/>
@@ -41,6 +42,7 @@ function Home (props) {
               <div className='email1'> {myData.email} .</div>
             </div>
         </div>
+      </div>
     </div>
   )
 };
