@@ -1,6 +1,5 @@
 import { createContext, useState, useEffect } from "react"
 // import JobDetail from './pages/JobDetail';
-import Main from "./Main";
 // import './project.css';
 
 function Project() {
