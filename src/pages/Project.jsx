@@ -33,7 +33,6 @@ function Project() {
     </div>
   );
 }
-
 const ProjectCard = ({ image, title, description, tools, link }) => {
   return (
     <div className="project-card">
@@ -46,7 +45,7 @@ const ProjectCard = ({ image, title, description, tools, link }) => {
         ))}
       </div>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        Open Project
+        Open Projects
       </a>
     </div>
   );
