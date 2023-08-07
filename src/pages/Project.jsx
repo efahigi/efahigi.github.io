@@ -16,7 +16,7 @@ function Project() {
   };
   return (
     <div className="projectPage">
-      <h1 className="title">Projects</h1>
+      <h1 className="title">Project</h1>
       <div className="projects-grid">
         <ProjectCard
           image={jobApp}
