@@ -28,9 +28,6 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="myInformation">
-         
-        </div>
       </div>
     </div>
   );

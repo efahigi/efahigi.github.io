@@ -1,6 +1,10 @@
 .resumePage{
-    border: solid black;
-  
-   
-    margin-top: 65px;
+ 
+    margin-top: 75px;
+    align-items: center;
+    height: 205vh;
+    margin-left: 20%; 
+    margin-right: 10%; 
+    
+    /* background-color: rgb(157, 157, 192); */
 }
