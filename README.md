@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+# Portfolio Project
+
+## Description
+I built aReact portfolio Project that has us home, about me, project,resume and contact.  
+I built this React portfolio Project to using React components
+- Home page
+- About me page
+- Contact page
+- Projects page.
+- Resume page
+
+## Wireframes 
+![Screenshot 2023-08-07 084845](https://github.com/efahigi/efahigi.github.io/assets/77455218/dcc50411-440f-4bf4-84f1-cc1c7e5a8da7)
+
+## API Reference
+I used url = `https://www.themuse.com/api/public/jobs?api_key=${apiKey}&page=${page}`; and
+ url = `https://api.weatherapi.com/v1/forecast.json?key=3ba0d5cb39744d22b5c51914232601&q=${area}&days=3&aqi=yes&alerts=yes`
+
+## Future Work
+This portfolio Project is not olny one time task, it is contenuouly integrate the new featre to my work. 
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
