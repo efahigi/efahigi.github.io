@@ -43,7 +43,7 @@ const Footer = () => {
                         </a>{' '}
                           
                        
-                        <a href='http://www.facebook.com'className='facebook'>
+                        <a href='http://www.facebook.com/'className='facebook'>
                         <i className='fa fa-facebook' />
                         </a>{' '}
 

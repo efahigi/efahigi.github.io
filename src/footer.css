@@ -42,8 +42,7 @@
   }
   .facebook{
     /* border: solid yellow; */
-    height: 23px;
-    width: 23px;
+    height: 23px; 
     width: 20%;
   }
   .twitter{
@@ -63,20 +62,18 @@
   }
   a.youtube {
     color: #eb3223;
-
+   
   }
   
   a.facebook {
     color: #4968ad;
+    
   }
   
   a.twitter {
     color: #4892cf;
   }
   
-  /* .fa fa-instagram {
-    color: black;
-  } */
   .socialInfo{
     display: flex;
     justify-content: space-between;
@@ -87,3 +84,4 @@
     justify-content: space-between;
   
   }
+ 
