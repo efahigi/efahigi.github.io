@@ -20,6 +20,9 @@ function Header() {
           <Link to="/contact">
             <div>Contact</div>
           </Link>
+          <Link to="/resume">
+            <div>Resume</div>
+          </Link>
     </div>
   )
 }

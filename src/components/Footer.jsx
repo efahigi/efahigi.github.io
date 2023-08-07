@@ -1,19 +1,13 @@
 import { Link } from 'react-router-dom';
 import { a } from 'react-router-dom';
-import { FontAwesomeIcon } from "@fortawesome/fontawesome-free";
-import {
-    faYoutube,
-    faFacebook,
-    faTwitter,
-    faInstagram
-  } from "@fortawesome/free-brands-svg-icons"
+
 const Footer = () => {
     
     return (
         <footer className='myProjectFooter' >
                 <div className='footContainer'>
                     <div className='footLinkContainer'>
-                        <h5>Links</h5>
+                        <h6>Links</h6>
                         <ul className='list-unstyled'>
                             <li>
                                 <Link to='/'>Home</Link>
