@@ -4,45 +4,44 @@ function Contact() {
   return (
     <div className='contactPage'id="contact">
     
-      <div className="container">
-      <div className="physicalAddress">
-              <h4 className="physical address">
+      <div className="locationConntainer">
+            <div className="physicalAddress">
+              <h5 className="address">
                 ADDRESS
-              </h4>
+              </h5>
               <p className="numberaddress">
                 8175 meadow Rd<br />
                 Dallas Texas 75231
               </p>
             </div>
-        <div className="map">
-          <iframe
+          <div className="map">
+            <iframe
             width="100%"
             height="100%"
             title="map"
             className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
-            style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-          />
-          <div className="locationContainer">
-            
-            <div className="contactContainer">
-              <h2 className="email">
-                EMAIL:
-              </h2>
-              <a className="emailAdress">
-                efawakene2005@email.com
-              </a>
-              <h2 className="phone">
-                PHONE:
-              </h2>
-              <p className="phoneAddress">4694076748</p>
-            </div>
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3350.3818764575185!2d-96.7656783!3d32.888070 3!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9fe69c6b01d7%3A0x27736c77e247a52e!2sMeadows%20Crossing%20Apartments!5e0!3m2!1sen!2sus!4v1691378689781!5m2!1sen!2sus" ></iframe>
           </div>
         </div>
-        <form
+
+        <div className="locationContainer">
+          <div className="contactContainer">
+            <h5 className="email">
+              Email: <span>efawakene2005@email.com</span>
+              <a className="emailAddress"></a>
+            </h5> 
+            
+            <h6 className="phoneAddress">
+              Phone:  <span>4694076748</span>
+            </h6>
+          </div>
+        </div>
+      
+
+
+
+
+        {/* <form
           netlify
           name=""
           className="">
@@ -92,9 +91,9 @@ function Contact() {
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
           </button>
-        </form>
+        </form> */}
       </div>
-    </div>
+   
   );
 }
 export default Contact

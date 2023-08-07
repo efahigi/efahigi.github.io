@@ -1,5 +1,43 @@
 .contactPage{
-    border: solid black;
+    /* border: solid black; */
     margin-top: 75px;
     background-color: rgb(157, 157, 192);
+    height: 100vh;
 }
+.locationConntainer{
+    margin-right: 34px;
+    display: flex;
+    margin-top: 50px
+  ;
+}
+.physicalAddress{
+    
+    width: 50%;
+    margin-top: 34px;
+}
+.map{
+    margin-top: 45px;
+    width: 50%;
+}
+.address,.numberaddress{
+   text-align: center;
+    margin: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.locationContainer{
+    margin-left: 15%;
+    margin-top: 28px;
+    width: 70%;
+    align-items: center;
+    /* border: solid green; */
+}
+.contactContainer{
+    align-items: center;
+    margin: 10px;
+}
+.phoneAddress{
+ margin: 5px;
+    width: 50%;
+}
+
+
