@@ -40,7 +40,6 @@ width: 50%;
 }
 .name:hover{
     color: blue;
-    /* margin-top: 30%; */
     display: flex;
     border-radius: 99%;
     margin: 20px; 
