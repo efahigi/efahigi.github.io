@@ -18,17 +18,16 @@ function Project() {
     <div className="projectPage">
       <h1 className="title">Projects</h1>
       <div className="projects-grid">
-        {/* TODO  provide a link to github or to the page if you deploy the job board app*/}
         <ProjectCard
           image={jobApp}
           title="Job Board App"
           link="https://github.com/efahigi/jobApp"
           description={
-            "Job Board App is a personal project that I developed to for job search experience. " +
+            "Job Board App is a personal project that I developed for learning and job search experience. " +
             "With its user-friendly interface and diverse job categories, the app connects job seekers with exciting opportunities from various industries. " +
-            "You can explore detailed job listings and easily access application links, "
+            "You can explore detailed tasks and easily access my application links, "
           }
-          tools={["Javascript", "ReactJs", "CSS", "Themuse Jobs API"]}
+          tools={["Javascript", "ReactJs", "CSS", "HTML", "Themuse Jobs API"]}
         />
       </div>
     </div>

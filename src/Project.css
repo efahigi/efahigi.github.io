@@ -3,6 +3,7 @@
     margin-top: 75px;
     height: 130vh;
     background-color: rgb(157, 157, 192);
+    
 }
 
   
@@ -83,8 +84,13 @@
   .project-card a {
     display: block;
     margin-top: 15px;
-    color: #007bff;
+    color:  white;
     text-decoration: none;
+    background-color: #007bff;
+    height: auto;
+    width: 103px;
+    border-radius: 4px;
+    align-items: center;
   }
   
   .project-card a:hover {
