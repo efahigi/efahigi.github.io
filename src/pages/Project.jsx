@@ -22,9 +22,9 @@ function Project() {
         <ProjectCard
           image={jobApp}
           title="Job Board App"
-          link=""
+          link="https://github.com/efahigi/jobApp"
           description={
-            "Job Board App a personal project that I developed to for job search experience. " +
+            "Job Board App is a personal project that I developed to for job search experience. " +
             "With its user-friendly interface and diverse job categories, the app connects job seekers with exciting opportunities from various industries. " +
             "You can explore detailed job listings and easily access application links, "
           }

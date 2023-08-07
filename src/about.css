@@ -11,6 +11,7 @@
     margin: 0%;
 }
 .myName{
+    font-weight: bold;
     /* border: solid red; */
     text-align: center;
     color: black;

@@ -1,10 +1,14 @@
 .projectPage {
     padding: 20px;
-    margin-top: 3rem;
-  }
+    margin-top: 75px;
+    height: 130vh;
+    background-color: rgb(157, 157, 192);
+}
+
   
   .title{
     text-align: center;
+    margin-top: 3;
   }
   .project-card-container {
     display: grid;
