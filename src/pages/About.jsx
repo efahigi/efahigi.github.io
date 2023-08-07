@@ -16,13 +16,13 @@ function About() {
           <div className="aboutConnection">
 
             <div className="contact">
-              <a href="#contact">
+              <a href="/contact">
               Contact Me
               </a>
             </div>
 
             <div className="project">
-              <a href="#projects">
+              <a href="/project">
                  My Work
               </a>
             </div>

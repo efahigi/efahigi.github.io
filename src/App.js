@@ -18,12 +18,7 @@ import './project.css';
 
 
 function App() {
-  const [data, setData] = useState('');
-  
-  // useEffect(()=>{
-  //   getData("dallas");
-  // },[])
-  
+  // const [data, setData] = useState('');
   return (
     <div className="App">
       
@@ -31,9 +26,9 @@ function App() {
       <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
-      <Route path="/resume" element={<Resume/>}/>
       <Route path="/project" element={<Project/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/resume" element={<Resume/>}/>
     </Routes>
     <Footer/>
   

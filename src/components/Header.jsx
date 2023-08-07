@@ -15,9 +15,7 @@ function Header() {
           <Link to="/about">
             <div>About Me</div>
           </Link>
-          <Link to="/resume">
-            <div>My Resume</div>
-          </Link>
+          
           <Link to="/project">
             <div>My Projects</div>
           </Link>

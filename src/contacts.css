@@ -13,11 +13,12 @@
 .physicalAddress{
     
     width: 50%;
-    margin-top: 34px;
+  
 }
 .map{
     margin-top: 45px;
-    width: 50%;
+    /* width: 50%; */
+    height:200px;
 }
 .address,.numberaddress{
    text-align: center;
@@ -27,13 +28,14 @@
 .locationContainer{
     margin-left: 15%;
     margin-top: 28px;
-    width: 70%;
+    /* width: 70%; */
     align-items: center;
     /* border: solid green; */
 }
 .contactContainer{
-    align-items: center;
-    margin: 10px;
+    /* align-items: center; */
+    /* margin: 10px; */
+    width: 50%;
 }
 .phoneAddress{
  margin: 5px;
