@@ -20,43 +20,35 @@
   }
   .footSocialContainer{
     display: block;
-    /* border: solid black; */
     width: 33%;
     padding: 5px;
-    /* padding: 25px 50px; */
+  
   }
   .footContactContainer{
-    /* border: solid yellow; */
     width: 33%;
     padding: 10px;
   }
   .footContainer{
-    /* border: solid red; */
     display: flex;
     width: 100%;
   }
   .instagram{
-    /* border: solid black; */
     height: 23px;
     width: 20%;
   }
   .facebook{
-    /* border: solid yellow; */
     height: 23px; 
     width: 20%;
   }
   .twitter{
-    /* border: solid green; */
     height: 23px;
     width: 23px;
   }
   .youtube{
-     /* border: solid red; */
     height: 23px; 
     width: 23px;
   }
   .linkedin{
-    /* border: solid red; */
     height: 23px;
     width: 23px;
   }
