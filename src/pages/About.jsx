@@ -29,9 +29,7 @@ function About() {
           </div>
         </div>
         <div className="myInformation">
-          {/* <img  src="./coding.svg"
-            className="imageInfo" 
-          /> */}
+         
         </div>
       </div>
     </div>
