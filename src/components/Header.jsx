@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState } from 'react';
 function Header() {
-  // const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="nav"  >
       <Link href='/'>
@@ -22,8 +20,6 @@ function Header() {
           <Link to="/contact">
             <div>Contact</div>
           </Link>
-          {/* </Collapse> */}
-        {/* </div> */}
     </div>
   )
 }
